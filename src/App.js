@@ -1,8 +1,10 @@
-import React, { Component } from "react";
-import { View } from "react-native";
+import React from "react";
 
-export default class App extends Component {
-  render() {
-    return <View />;
-  }
-}
+import "~/config/ReactotronConfig";
+import "~/config/DevToolsConfig";
+
+import Routes from "./routes";
+
+const App = () => <Routes />;
+
+export default App;
